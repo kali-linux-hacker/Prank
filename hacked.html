@@ -1,0 +1,61 @@
+<!-- Created by musab -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body class="neon">
+        Hello.<br />
+        You have been taken here in order to help us. We have heard of your programming skills, and require your help. Our servers have recently been hacked, you can see it by tying to type inside this textbox:<br /><textarea id="are" onclick="hack()"></textarea><br>You see my point. What I need from YOU is to code us a new security code. You will type snippets of code into the textboxes, and then check if it worked. Here is your first textbox, a function called "isHacked" has already been declared for you. Use that function, an if and the JavaScript "alert" function to notify me with "Hacked!" when the servers have been hacked.<textarea id="one" ></textarea><br>Thank you!<br>Oh NO!! WE JUST GOT ALERTED! THE HACKER HAS ATTACKED AGAIN!! QUICK!! YOU NEED TO PATCH UP THE LOOPHOLE HE USED!! In this code are some errors. You need to remove them in order to patch up the loophole of the hacker.<br><textarea id="tet">var password =document.getElementByid('input').value;if(passwor =='$21SeRVErReq$261!!'){alert('Accepted!);};else(){alert('Denied'};
+    </textarea><br><!--<button onclick="correct()">Check</button><br><p id="yee"></p>--><br>Thank you very much! Now you can try typing again... <br><textarea onclick="hack2()" id="ar"></textarea><p id="lol"></p>
+    
+
+<style type="text/css"> 
+/* Created by musab */
+
+body {
+    
+}
+.neon{
+    background-color:black;
+    color:lightgreen;
+    text-shadow:0 0 30px cyan;
+    text-align:center ;
+}
+textarea{
+    width:300px;
+}
+#tet{
+    width:300px;
+    height:125px;
+    
+}
+</style>
+<style type="text/javascript"> 
+// Created by musab
+var str = "You have been HACKED lol!!!😂😂"
+var str2 = "You can't get rid of me...😈😈"
+var j = 0
+var b = 0
+function hack(){
+    if (j<str.length){
+        document.getElementById("are").innerHTML += str.charAt(j)
+        j++
+    setTimeout(hack,90) 
+     
+}
+}
+
+function hack2(){
+    
+
+    if (b<str2.length){
+        document.getElementById("ar").innerHTML += str2.charAt(b)
+        b++;
+    setTimeout(hack2 ,90) 
+     
+}
+</script>
+</body>
+</html>
